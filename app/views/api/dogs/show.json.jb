@@ -1,0 +1,12 @@
+{
+  id: @dog.id,
+  name: @dog.name,
+  breed_id: @dog.breed_id,
+  weight: @dog.weight,
+  min_of_activity: @dog.min_of_activity,
+  daily_kcal: @dog.daily_kcal,
+  image: @dog.image,
+  user_id: @dog.user_id,
+  diet_id: @dog.diet_id,
+  fitness_id: @dog.fitness_id,
+}
