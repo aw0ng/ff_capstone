@@ -10,14 +10,14 @@ class Dog < ApplicationRecord
   #   Recommendation.where(dog_id: id)
   # end
 
-  # def diet
-  #   Recommendation.where(dog_id: id)
-  # end
+  def diet
+    Recommendation.where(dog_id: id)
+  end
 
-  # def fitness
-  #   Recommendation.where(dog_id: id)
+  def fitness
+    Recommendation.where(dog_id: id)
 
-  # end
+  end
 
   # def weight
   #   Recommendation.where(dog_id: id)

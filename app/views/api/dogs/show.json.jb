@@ -9,7 +9,7 @@
   user_id: @dog.user_id,
   diet_id: @dog.diet_id,
   fitness_id: @dog.fitness_id,
-  recommendation: @dog.recommendations.map do |recommendation|
+  recommendations: @dog.recommendations.map do |recommendation|
     {
       id: recommendation.id,
       diet: recommendation.diet,
