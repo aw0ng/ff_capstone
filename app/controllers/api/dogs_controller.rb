@@ -17,12 +17,15 @@ class Api::DogsController < ApplicationController
       min_of_activity: params[:min_of_activity],
       daily_kcal: params[:daily_kcal],
       image: params[:image],
-      user_id: params[:user_id],
       diet_id: params[:diet_id],
       fitness_id: params[:fitness_id],
+      user_id: current_user.id,
     )
     @dog.save
     render "show.json.jb"
+    # else
+    #   render json: "You must be logged in to add a furiend"
+    # end
   end
 
   def update
@@ -40,3 +43,5 @@ class Api::DogsController < ApplicationController
     render "show.json.jb"
   end
 end
+
+# TODO - authorizations
