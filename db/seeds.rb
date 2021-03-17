@@ -9,6 +9,11 @@
 # Breed.create!(name: "Pekingese", weight: 14, min_of_activity: 30, daily_kcal: 300)
 # Breed.create!(name: "Middle Eastern Village Dog", weight: 22, min_of_activity: 75, daily_kcal: 425)
 # Breed.create!(name: "American Bully", weight: 50, min_of_activity: 60, daily_kcal: 1000)
+Breed.create!(name: "Bernese Mountain Dog", weight: 100, min_of_activity: , daily_kcal: )
+Breed.create!(name: "", weight: , min_of_activity: , daily_kcal: )
+Breed.create!(name: "", weight: , min_of_activity: , daily_kcal: )
+Breed.create!(name: "", weight: , min_of_activity: , daily_kcal: )
+Breed.create!(name: "", weight: , min_of_activity: , daily_kcal: )
 
 # Diet.create!(brand: "Honest Kitchen", kcal_per_cup: 422)
 # Diet.create!(brand: "Orijen", kcal_per_cup: 449)

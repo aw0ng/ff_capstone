@@ -1,0 +1,7 @@
+{
+  id: @breed.id,
+  name: @breed.name,
+  weight: @breed.weight,
+  min_of_activity: @breed.min_of_activity,
+  daily_kcal: @breed.min_of_activity,
+}

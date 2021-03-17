@@ -2,6 +2,7 @@
   id: @dog.id,
   name: @dog.name,
   breed_id: @dog.breed_id,
+  breed: @dog.breed,
   weight: @dog.weight,
   min_of_activity: @dog.min_of_activity,
   daily_kcal: @dog.daily_kcal,
