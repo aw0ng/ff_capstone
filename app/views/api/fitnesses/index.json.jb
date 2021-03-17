@@ -1,0 +1,7 @@
+@fitnesses.map do |fitness|
+  {
+    id: fitness.id,
+    activity: fitness.activity,
+    kcal_per_minute: fitness.kcal_per_minute,
+  }
+end

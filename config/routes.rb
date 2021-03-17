@@ -18,5 +18,15 @@ Rails.application.routes.draw do
     get "/breeds/:id" => "breeds#show"
     post "/breeds" => "breeds#create"
     patch "/breeds/:id" => "breeds#update"
+    # DIETS ACTIONS
+    get "/diets" => "diets#index"
+    get "/diets/:id" => "diets#show"
+    post "/diets" => "diets#create"
+    patch "/diets/:id" => "diets#update"
+    # FITNESSES ACTIONS
+    get "/fitnesses" => "fitnesses#index"
+    get "/fitnesses/:id" => "fitnesses#show"
+    post "/fitnesses" => "fitnesses#create"
+    patch "/fitnesses/:id" => "fitnesses#update"
   end
 end

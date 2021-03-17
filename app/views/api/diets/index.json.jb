@@ -1,0 +1,7 @@
+@diets.map do |diet|
+  {
+    id: diet.id,
+    brand: diet.brand,
+    kcal_per_cup: diet.kcal_per_cup,
+  }
+end
