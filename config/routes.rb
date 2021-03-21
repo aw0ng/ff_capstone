@@ -28,5 +28,10 @@ Rails.application.routes.draw do
     get "/fitnesses/:id" => "fitnesses#show"
     post "/fitnesses" => "fitnesses#create"
     patch "/fitnesses/:id" => "fitnesses#update"
+    # RECOMMENDATIONS ACTIONS
+    get "/recommendations" => "recommendations#index"
+    get "/recommendations/:id" => "recommendations#show"
+    post "/recommendations" => "recommendations#create"
+    patch "/recommendations/:id" => "recommendations#update"
   end
 end

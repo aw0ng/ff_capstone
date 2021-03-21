@@ -1,0 +1,8 @@
+{
+    id: @recommendation.id,
+    diet: @recommendation.diet,
+    fitness: @recommendation.fitness,
+    weight: @recommendation.weight,
+    min_of_activity: @recommendation.min_of_activity,
+    daily_kcal: @recommendation.daily_kcal,
+  }
