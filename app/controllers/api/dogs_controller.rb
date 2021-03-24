@@ -10,13 +10,15 @@ class Api::DogsController < ApplicationController
   end
 
   def create
+    response = Cloudinary::Uploader.upload(params[:image], resource_type: :auto)
+    cloudinary_url = response["secure_url"]
     @dog = Dog.new(
       name: params[:name],
       breed_id: params[:breed_id],
       weight: params[:weight],
       min_of_activity: params[:min_of_activity],
       daily_kcal: params[:daily_kcal],
-      image: params[:image],
+      image: cloudinary_url,
       diet_id: params[:diet_id],
       fitness_id: params[:fitness_id],
       user_id: current_user.id,

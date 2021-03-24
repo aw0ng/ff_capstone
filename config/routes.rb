@@ -33,5 +33,8 @@ Rails.application.routes.draw do
     get "/recommendations/:id" => "recommendations#show"
     post "/recommendations" => "recommendations#create"
     patch "/recommendations/:id" => "recommendations#update"
+    # EXERCISES ACTIONS
+    get "/exercises" => "exercises#index"
+    get "/exercises/:id" => "exercises#show"
   end
 end

@@ -28,3 +28,13 @@
 # Recommendation.create!(dog_id: 1, diet_id: 1, fitness_id: 1, weight: 9, min_of_activity: 60, daily_kcal: 225)
 # Recommendation.create!(dog_id: 2, diet_id: 1, fitness_id: 1, weight: 12, min_of_activity: 60, daily_kcal: 275)
 # Recommendation.create!(dog_id: 3, diet_id: 1, fitness_id: 1, weight: 23, min_of_activity: 75, daily_kcal: 450)
+
+# Exercise.create!(breed_group: "Toy", min_activity: 30, max_activity: 60)
+# Exercise.create!(breed_group: "Hound", min_activity: 30, max_activity: 90)
+# Exercise.create!(breed_group: "Terrier", min_activity: 60, max_activity: 90)
+# Exercise.create!(breed_group: "Working", min_activity: 60, max_activity: 120)
+# Exercise.create!(breed_group: "Sporting", min_activity: 60, max_activity: 120)
+# Exercise.create!(breed_group: "Herding", min_activity: 60, max_activity: 120)
+# Exercise.create!(breed_group: "Mixed", min_activity: 60, max_activity: 120)
+# Exercise.create!(breed_group: "Non-sporting", min_activity: 60, max_activity: 120)
+# Exercise.create!(breed_group: "", min_activity: 60, max_activity: 120)

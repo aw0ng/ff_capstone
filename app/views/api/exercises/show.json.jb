@@ -1,0 +1,7 @@
+{
+    id: @exercise.id,
+    breed_group: @exercise.breed_group,
+    min_activity: @exercise.min_activity,
+    max_activity: @exercise.max_activity,
+    more_info: @exercise.more_info,
+  }
